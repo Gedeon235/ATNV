@@ -1,5 +1,5 @@
 import { FaBullseye, FaHandshake, FaAward } from "react-icons/fa";
-import meImage from "../assets/me.png"; // Assure-toi que le chemin est correct
+import meImage from "../assets/Boss1.png"; // Assure-toi que le chemin est correct
 
 const About = () => {
   return (

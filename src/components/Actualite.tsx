@@ -11,7 +11,7 @@ const Actualite = () => {
 
       <div className="flex flex-wrap bg-white rounded-xl overflow-hidden shadow-md mb-10">
         <img
-          src="src/assets/at.png"
+          src="src/assets/Boss2.png"
           alt="Formation"
           className="w-full md:w-[400px] object-cover"
         />

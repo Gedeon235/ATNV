@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import {Globe, Users, Handshake} from "lucide-react"
 import { FiMenu } from "react-icons/fi";
 import logo from "../assets/logo.png"; // corrige le chemin selon ton arborescence
 import bgImage from "../assets/image.jpeg";
@@ -31,28 +30,25 @@ const Header = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-white">
             Construire la Paix <br /> au Tchad
           </h1>
-          <p className="text-lg font-semibold md:text-xl mt-6 max-w-2xl text-white">
+          <p className="text-lg md:text-xl mt-6 max-w-2xl text-white">
             Depuis 1992, l'Association Tchadienne pour la Non-Violence œuvre pour une
             société juste, pacifique et solidaire à Moundou et dans tout le Tchad.
           </p>
 
           <div className="flex flex-wrap justify-center gap-6 mt-10">
-            <div className="flex flex-col items-center p-6 bg-black/50 backdrop-blur-sm rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-              <Globe className="w-12 h-12 mb-4 text-yellow-400" />
-              <h3 className="text-lg font-semibold mb-2">Justice Sociale</h3>
-              <p className="text-sm font-bold text-white-200">Promouvoir l'équité et les droits humains</p>
-          </div>
-
-          <div className="flex flex-col items-center p-6 bg-black/50  backdrop-blur-sm rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-            <Users className="w-12 h-12 mb-4 text-yellow-400" />
-            <h3 className="text-lg font-semibold mb-2">Communauté</h3>
-            <p className="text-sm font-bold text-white-200">Rassembler et unir les citoyens</p>
-          </div>
-            <div className="flex flex-col items-center p-6 bg-black/50 backdrop-blur-sm rounded-xl border border-white/20 hover:bg-white/20 transition-all duration-300">
-            <Handshake className="w-12 h-12 mb-4 text-yellow-400" />
-            <h3 className="text-lg font-semibold mb-2">Non-Violence</h3>
-            <p className="text-sm font-bold text-white-200">Résoudre les conflits par le dialogue</p>
-          </div>
+            <div className="bg-slate-200 p-6 rounded-lg w-64 text-black text-center shadow-lg">
+              🤝
+              <h3 className="text-xl font-semibold mt-2">Justice Sociale</h3>
+              <p>Promouvoir l'équité et les droits humains</p>
+            </div>
+            <div className="bg-slate-400 p-6 rounded-lg w-64 text-black text-center shadow-lg">
+              <h3 className="text-xl font-semibold">Communauté</h3>
+              <p>Rassembler et unir les citoyens</p>
+            </div>
+            <div className="bg-slate-200 p-6 rounded-lg w-64 text-black text-center shadow-lg">
+              <h3 className="text-xl font-semibold">Non-Violence</h3>
+              <p>Résoudre les conflits par le dialogue</p>
+            </div>
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 mt-10">
