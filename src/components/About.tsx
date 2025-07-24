@@ -13,13 +13,13 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-10 items-center mb-16">
           <div className="flex-1 min-w-[300px]">
             <h4 className="text-green-700 font-bold text-lg mb-2">Fondée en 1992</h4>
-            <p className="mb-4 leading-relaxed">
+            <p className="mb-4 md:text-justify leading-relaxed">
               L’Association Tchadienne pour la Non-Violence (ATNV) est née de la
               volonté de citoyens engagés de construire une société tchadienne plus
               juste et pacifique. Basée à Moundou, notre association rayonne sur tout
               le territoire national.
             </p>
-            <p className="mb-4 leading-relaxed">
+            <p className="mb-4 md:text-justify leading-relaxed">
               Nous croyons fermement que les conflits peuvent être résolus par le
               dialogue, la médiation et la compréhension mutuelle. Notre approche
               privilégie l’éducation, la sensibilisation et l’accompagnement des

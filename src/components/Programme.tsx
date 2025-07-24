@@ -94,7 +94,7 @@ const styles: { [key: string]: React.CSSProperties } = {
     borderRadius: "10px",
     boxShadow: "0 4px 10px rgba(0,0,0,0.05)",
     padding: "20px",
-    textAlign: "left",
+    textAlign: "justify",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",

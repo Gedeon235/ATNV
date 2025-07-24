@@ -4,7 +4,7 @@ const Actualite = () => {
   return (
     <div className="font-sans px-5 py-10 max-w-screen-xl mx-auto">
       <h1 className="text-center text-3xl font-bold mb-2">Actualités et Événements</h1>
-      <p className="text-center text-gray-600 text-base mb-10 leading-relaxed">
+      <p className="text-center text-gray-600 text-base mb-10 leading-relaxed md:text-justify">
         Suivez nos dernières actions et événements pour la promotion de<br />
         la paix au Tchad
       </p>
@@ -23,7 +23,7 @@ const Actualite = () => {
             <span className="text-xs text-gray-500">📅 15 Décembre 2024</span>
           </div>
           <h2 className="text-xl font-bold mb-2">Atelier de Formation sur la Médiation Communautaire</h2>
-          <p className="text-sm text-gray-700 mb-4">
+          <p className="text-sm text-gray-700 mb-4 md:text-justify">
             Formation de 30 nouveaux médiateurs communautaires dans la région du Logone Oriental pour renforcer la cohésion sociale.
           </p>
           <Link to="/actualite/1" className="text-green-700 font-semibold text-sm">Lire la suite →</Link>
