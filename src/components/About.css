@@ -1,4 +1,4 @@
-/* About.css */
+/* About.css
 
 .about-section {
   padding: 60px 20px;
@@ -87,7 +87,6 @@
   margin: 10px 0;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .about-title {
     font-size: 26px;
@@ -110,3 +109,4 @@
     width: 100%;
   }
 }
+ */

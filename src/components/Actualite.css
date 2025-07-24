@@ -1,4 +1,4 @@
-/* Actualite.css */
+/* Actualite.css 
 
 .actualite-wrapper {
   font-family: sans-serif;
@@ -199,7 +199,7 @@
   cursor: pointer;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .main-card {
     flex-direction: column;
