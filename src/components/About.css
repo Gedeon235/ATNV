@@ -1,0 +1,112 @@
+/* About.css */
+
+.about-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about-subtitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.about-content-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about-text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.founded-title {
+  color: #2a9d8f;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-paragraph {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-city {
+  color: #2a9d8f;
+  font-style: italic;
+}
+
+.about-image-wrapper {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.about-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 26px;
+  }
+
+  .about-subtitle {
+    font-size: 16px;
+  }
+
+  .about-content-row {
+    flex-direction: column;
+  }
+
+  .about-image-wrapper,
+  .about-text-content {
+    width: 100%;
+  }
+
+  .about-card {
+    width: 100%;
+  }
+}
