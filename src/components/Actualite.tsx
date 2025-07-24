@@ -89,7 +89,7 @@ const secondaryCards = [
     date: "21 Septembre 2024",
     bg: "#E6F4EA",
     color: "#1B873F",
-    image: "src/assets/i.png",
+    image: "src/assets/Boss3.png",
   },
   {
     category: "Partenariat",
@@ -98,7 +98,7 @@ const secondaryCards = [
     date: "10 Novembre 2024",
     bg: "#E6F0FA",
     color: "#1E4DB7",
-    image: "src/assets/pa.png",
+    image: "src/assets/polo1.jpg",
   },
   {
     category: "Sensibilisation",
@@ -107,7 +107,7 @@ const secondaryCards = [
     date: "22 Novembre 2024",
     bg: "#E7F7F0",
     color: "#00754A",
-    image: "src/assets/enf.png",
+    image: "src/assets/polo2.png",
   },
 ];
 
