@@ -46,8 +46,8 @@ const cards = [
     icon: "⚖️",
   },
   {
-    title: "Sensibilisation aux Droits Humains",
-    text: "Campagnes de sensibilisation et formations sur les droits fondamentaux et la dignité humaine.",
+    title: "Réservation",
+    text: "L'ATNV dispose des salles de formations hautement qualifiées, des hébergements et des espaces pour toutes vos activités y compris vos séjours à Moundou",
     color: "#FFBE3D",
     icon: "🔔",
   },

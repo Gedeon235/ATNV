@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -10,8 +11,8 @@ const Footer = () => {
           <div style={styles.logoSection}>
             <div style={styles.logoIcon}>
               <img
-                src="src/assets/log.jpeg"
-                alt="Groupe souriant"
+                src={logo}
+                alt="Logo"
                 style={styles.image}
               />
             </div>
